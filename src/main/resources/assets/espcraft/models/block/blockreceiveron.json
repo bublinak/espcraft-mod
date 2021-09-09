@@ -1,0 +1,15 @@
+{
+  "parent": "espcraft:custom/espblock_red_receiver",
+  "textures": {
+    "all": "espcraft:blocks/espblock",
+    "particle": "espcraft:blocks/espblock",
+    "0": "espcraft:blocks/smooth_stone",
+    "2": "espcraft:blocks/redstone_torch_off",
+    "3": "espcraft:blocks/anvil",
+    "5": "espcraft:blocks/redstone_lamp_red",
+    "6": "espcraft:blocks/redstone_torch_red",
+    "7": "espcraft:blocks/repeater_top_on",
+    "8": "espcraft:blocks/warped_nylium",
+    "missing": "espcraft:blocks/"
+  }
+}

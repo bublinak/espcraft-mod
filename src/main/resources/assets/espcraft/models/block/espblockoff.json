@@ -1,0 +1,12 @@
+{
+  "parent": "espcraft:custom/espblock_red_off",
+  "textures": {
+    "all": "espcraft:blocks/espblock",
+    "particle": "espcraft:blocks/repeater_top_off",
+    "0": "espcraft:blocks/smooth_stone",
+    "2": "espcraft:blocks/redstone_torch_red_off",
+    "3": "espcraft:blocks/anvil",
+    "4": "espcraft:blocks/redstone_lamp_red_off",
+    "5": "espcraft:blocks/repeater_top_off"
+  }
+}

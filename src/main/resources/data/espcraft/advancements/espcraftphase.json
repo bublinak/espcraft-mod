@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "espcraft:phasedust"
+    },
+    "title": {
+      "translate": "advancements.espcraftphase.title"
+    },
+    "description": {
+      "translate": "advancements.espcraftphase.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "espcraftphase": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "espcraft:espcraft"
+}

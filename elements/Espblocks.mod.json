@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Espblockoff"
+      },
+      {
+        "value": "CUSTOM:Espblockon"
+      },
+      {
+        "value": "CUSTOM:Espblockonreceiver"
+      },
+      {
+        "value": "CUSTOM:Espblockontransmitter"
+      },
+      {
+        "value": "CUSTOM:Espblockoffreceiver"
+      },
+      {
+        "value": "CUSTOM:Espblockofftransmitter"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "espblock",
+    "namespace": "minecraft"
+  }
+}

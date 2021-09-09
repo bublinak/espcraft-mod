@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "espcraft:textures/ancient_debris_side.png",
+    "icon": {
+      "item": "minecraft:command_block"
+    },
+    "title": {
+      "translate": "advancements.espcraft.title"
+    },
+    "description": {
+      "translate": "advancements.espcraft.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "espcraft": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:horn_coral_block"
+    },
+    "title": {
+      "translate": "advancements.espcraft_6.title"
+    },
+    "description": {
+      "translate": "advancements.espcraft_6.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "espcraft_6": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "espcraft:espcraft_1"
+}

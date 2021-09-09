@@ -1,0 +1,115 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 275,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "ESPcraft <VAR:version>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ESPcraft <VAR:version>",
+          "x": 265,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mode: <BNBT:logic:Receiver> / <BNBT:text:Name> / <BNBT:text:Channel>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mode: <BNBT:logic:Receiver> / <BNBT:text:Name> / <BNBT:text:Channel>",
+          "x": 82,
+          "y": 204
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "MC -> NET",
+          "onClick": {
+            "name": "Transmitter"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "MC -> NET",
+          "x": 286,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "MC <- NET",
+          "onClick": {
+            "name": "Receiver"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "MC <- NET",
+          "x": 286,
+          "y": 58
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "UUID",
+          "width": 60,
+          "height": 20,
+          "name": "name",
+          "x": 86,
+          "y": 178
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Channel",
+          "width": 60,
+          "height": 20,
+          "name": "channel",
+          "x": 151,
+          "y": 178
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set",
+          "onClick": {
+            "name": "Guifillbox"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Set",
+          "x": 216,
+          "y": 178
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Recv"
+    },
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

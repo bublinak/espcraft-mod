@@ -1,0 +1,32 @@
+{
+  "group": "redstone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_torch"
+    },
+    "1": {
+      "item": "minecraft:comparator"
+    },
+    "2": {
+      "item": "minecraft:redstone_torch"
+    },
+    "3": {
+      "item": "minecraft:polished_andesite_slab"
+    },
+    "4": {
+      "item": "minecraft:polished_andesite_slab"
+    },
+    "5": {
+      "item": "minecraft:polished_andesite_slab"
+    }
+  },
+  "result": {
+    "item": "espcraft:espblockoff",
+    "count": 1
+  }
+}

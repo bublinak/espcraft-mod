@@ -1,0 +1,90 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 275,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Set to Transmitter",
+          "onClick": {
+            "name": "Transmitter"
+          },
+          "width": 115,
+          "height": 20,
+          "name": "Set to Transmitter",
+          "x": 155,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ESPcraft <VAR:version>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ESPcraft <VAR:version>",
+          "x": 265,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mode: None",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mode: None",
+          "x": 82,
+          "y": 204
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "X",
+          "onClick": {
+            "name": "CloseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "X",
+          "x": 314,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set to Receiver",
+          "onClick": {
+            "name": "Receiver"
+          },
+          "width": 115,
+          "height": 20,
+          "name": "Set to Receiver",
+          "x": 155,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

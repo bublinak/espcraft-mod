@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smooth_stone",
+        "2": "redstone_torch_red_off",
+        "3": "anvil",
+        "4": "redstone_lamp_red_off",
+        "5": "repeater_top_off"
+      },
+      "name": "default"
+    }
+  }
+}
